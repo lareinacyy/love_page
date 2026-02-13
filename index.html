@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>嘿，有个问题问你</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main-page">
+        <h1>你爱我吗？</h1>
+        <div class="btn-container">
+            <button id="love-btn" onclick="showSuccess()">爱</button>
+            <button id="no-love-btn" onclick="moveButton()">不爱</button>
+        </div>
+    </div>
+
+    <div id="success-page">
+        <h2>我就知道！❤️</h2>
+        <p>我也超级爱你呀～</p>
+        <button onclick="location.reload()" style="margin-top: 20px; background: #eee; color: #333;">返回</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
